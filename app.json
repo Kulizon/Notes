@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "FirstNativeApp",
-    "slug": "FirstNativeApp",
+    "name": "Notes",
+    "slug": "addfree-notes",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.kulizon.AddFreeNotes"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d7047dd7-b3b9-47b0-8ce8-0c11edb90445"
+      }
+    },
+    "owner": "kulizon"
   }
 }
